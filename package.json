@@ -1,0 +1,25 @@
+{
+  "name": "traverly",
+  "version": "2.0.0",
+  "description": "Traverly Project",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css "
+  },
+  "license": "ISC",
+  "author": "Tomas Antanaitis",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "concat": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.10.0",
+    "npm": "^6.4.1",
+    "npx": "^10.2.0",
+    "sass": "^1.15.1"
+  }
+}
